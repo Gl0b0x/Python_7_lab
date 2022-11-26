@@ -1,0 +1,97 @@
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+.one-post.folded .article-content {
+    display: none;
+  }
+body{
+    background: #1abc9c;
+font-family: Tahoma, Arial, sans-serif; 
+color: #ffffff;
+}
+.header img {
+    display: block; 
+    width: 318px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.archive {
+    width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-title a {
+    color: #ffffff;
+}
+.article-author { 
+    width: 50%; 
+    float: left;
+    }
+ .article-created-date { 
+    text-align: right;
+}
+.content{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form{
+    margin-top:30px;
+}
+.textarea{
+    resize: none;
+    width: 300px;
+    min-height: 200px;
+    font-size: 20px;
+    background-color: lightgray;
+    color:white;
+}
+.input{
+    resize: none;
+    width: 300px;
+    background-color: lightgray;
+    font-size: 24px;
+    color:white;
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: lightgray;
+    color:white;
+    cursor:pointer;
+    transition:all 0.2s;
+}
+.button:hover{
+    background-color:grey;
+    color:black;
+}
+.errors{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:red;
+    font-size: 20px;
+}
+.fold-button
+{
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: lightgray;
+    color:white;
+    cursor:pointer;
+    transition:all 0.2s;
+}
+.fold-button:hover{
+    background-color:grey;
+    color:black;
+}
